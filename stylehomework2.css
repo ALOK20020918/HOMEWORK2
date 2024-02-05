@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: blanchedalmond;
+    overflow: hidden;
+   
+
+}
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        background-color:white ;
+        width: 700px;
+        height: 400px;
+        border-radius: 20px;
+        margin: 200px;
+        margin-left: 450px;
+        display: flex;
+}
+.img{
+    width:50%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.text{
+    padding: 30px;
+
+}
+.button{
+  width: 300px;
+ background-color: coral;
+ height: 40px;
+ color:white;
+ border-radius: 5px;
+ border: hidden;
+}
+h1{
+    font-family: 'PT Sans', sans-serif;
+}
